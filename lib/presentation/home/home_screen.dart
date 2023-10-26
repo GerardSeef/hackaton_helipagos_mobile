@@ -55,20 +55,8 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
       onTap: () {
-
-
-    //  Navigator.of(context).pushNamed(menuItem.link);
         context.go(menuItem.link);
-        //  Navigator.of(context).push(
-        //     MaterialPageRoute(
-        //       builder: (context) => CoinList(),
-        //     ),
-        //   );
-      //   Navigator.of(context).pushNamed(menuItem.link);
-        // context.pushNamed(CardsScreen.name);
-      //  context.go(menuItem.link);
-        //context.push(menuItem.link);
-      },
+        },
     );
   }
 }

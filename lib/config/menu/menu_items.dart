@@ -40,11 +40,6 @@ const appMenuItems = <MenuItem>[
       link: '/criptoVsDolar', 
       icon: Icons.money_rounded
     ),
-    MenuItem(
-      title: 'Detalles', 
-      subTitle: 'Informacion de la moneda seleccionada', 
-      link: '/coinsDetail', 
-      icon: Icons.money_rounded
-    ),
+  
 
 ];
